@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-page: #FAFBFA;
+    --text-primary: #171517;
+    --text-secondary: #645E5D;
+    --color-orange: #F16727;
+    --color-muted: #9FA1A5;
+    --bg-upload: #F4F4F3;
+    --border-gray: #D9D9D9;
+    --bg-pdf-chat: #EAF3FF;
+    --color-blue: #2563EB;
+  }
+
+  body {
+    background-color: #FAFBFA;
+    color: #171517;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    antialiased: true;
+  }
+}
+
+/* Custom scrollbars matching clean theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F4F4F3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D9D9D9;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9FA1A5;
+}
+
+/* Academic typography styles */
+.academic-font {
+  font-family: 'Newsreader', Georgia, Cambria, 'Times New Roman', Times, serif;
+}
+
+.mono-font {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Brand Gradients */
+.bg-orange-gradient {
+  background: linear-gradient(135deg, #F16727 0%, #FF8347 100%);
+}
+
+.bg-orange-subtle-gradient {
+  background: linear-gradient(135deg, rgba(241, 103, 39, 0.08) 0%, rgba(255, 131, 71, 0.03) 100%);
+}
+
+.bg-blue-subtle-gradient {
+  background: linear-gradient(135deg, #EAF3FF 0%, #F0F6FF 100%);
+}

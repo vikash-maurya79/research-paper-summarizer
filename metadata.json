@@ -1,0 +1,6 @@
+{
+  "name": "ScholarExtract - Academic Paper Structural Analyzer",
+  "description": "Expert academic paper analyzer accurately extracting Objective, Methodology, Findings, Limitations, and Key Takeaways with zero-hallucination precision.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
